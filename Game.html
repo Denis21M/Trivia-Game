@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="Game.css">
+</head>
+<body>
+<div class="super">
+    <div class="container">
+        <h1>Trivia Game</h1>
+        <h2 id="question"></h2>
+        <div id="choices">
+            <button id="choice1" onclick="checkAnswer(this)"></button>
+            <button id="choice2" onclick="checkAnswer(this)"></button>
+            <button id="choice3" onclick="checkAnswer(this)"></button>
+            <button id="choice4" onclick="checkAnswer(this)"></button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <div class="refresh">
+        <button class="refresh"><a href="http://127.0.0.1:5500/Game.html" id="reset">Reset</a></button>
+    </div>
+</div>
+    <script src="Game.js"></script>
+</body>
+</html>
